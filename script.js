@@ -52,9 +52,19 @@
          const audioElement = document.createElement ("audio");
          audioElement.controls = true;
          audioElement.src = audioUrl;
+            document.body.appendChild(äudioElement);
+        } else {
+            alert('Por favor, selecciona un archivo de audio.');
+        }
+
+      if (videoFile) {
+            const videoUrl = URL.createObjectURL(videoFile);
+            console.log(videoUrl);
+         const videoElement = document.createElement ("video");
+         videoElement.controls = true;
+         videoElement.src = videoUrl;
             document.body.appendChild(videoElement);
         } else {
             alert('Por favor, selecciona un archivo de video.');
         }
-      
     });
