@@ -45,9 +45,8 @@
         } else {
             alert('Por favor, selecciona un archivo PDF.');
         }
-   console.log("Hola");
+      
       if (audioFile) {
-         console.log("1");
             const audioUrl = URL.createObjectURL(audioFile);
             console.log(audioUrl);
          const audioElement = document.createElement ("audio");
