@@ -1,0 +1,57 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Párrafos */
+p {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* Inputs tipo file */
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+/* Botón */
+button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Imagen mostrada */
+#MostrarImagen {
+    display: block;
+    margin-top: 15px;
+    max-width: 300px;
+}
+
+/* Texto mostrado */
+#MostrarContenido {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+/* PDF */
+#MostrarPdf {
+    margin-top: 15px;
+    border: 1px solid #ccc;
+}
